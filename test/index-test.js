@@ -73,5 +73,6 @@ describe('<DelayedButton />', () => {
       expect(spy.firstCall.args[0]).to.equal(MOCKED_EVENT, 'The event is not being passed to the callback prop.');
       done();
     }, DELAY + 1);
-  });
+  }
+);
 });
